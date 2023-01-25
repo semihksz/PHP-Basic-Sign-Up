@@ -120,7 +120,7 @@ if (isset($_POST['signup'])) {
                             <input type="password" name="user_pass" class="form-control" placeholder="Password" value="<?= isset($_POST['user_pass']) ? $_POST['user_pass'] : null; ?>">
 
                         </div>
-                        <button type="submit" name="signup" class="btn btn-primary">Submit</button>
+                        <button type="submit" name="signup" class="btn btn-primary">Sign Up</button>
                     </form>
                 </div>
                 <div class="col p-5">
